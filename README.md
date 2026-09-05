@@ -45,9 +45,5 @@ Using a degree-3 polynomial regression model, the current run produced:
 - Mean Absolute Error (MAE): `1994.45`
 - R² score: `0.9996`
 - Predicted total cases on day 50: `135786`
+he dataset contains 200 daily records from March 1, 2020 through September 16, 2020.
 
-The dataset contains 200 daily records from March 1, 2020 through September 16, 2020.
-
-## Notes
-
-The model currently uses a random train/test split. For a more realistic time-series evaluation, the training data should contain earlier dates and the test data should contain later dates. Also, the reported peak and low days refer to total cases, not daily case growth.
